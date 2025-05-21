@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taylor Swift - Le sue Ere</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f3f3f3;
+      color: #333;
+    }
+    header {
+      background-color: #b19cd9;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    .tab-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #f5f5f5;
+      border-bottom: 2px solid #ccc;
+    }
+    .tab-bar button {
+      border: none;
+      background: none;
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    .tab-bar button:hover {
+      transform: scale(1.05);
+    }
+    .tab-bar button.active {
+      border-bottom: 4px solid #000;
+    }
+    .content {
+      display: none;
+      padding: 2rem;
+    }
+    .content.active {
+      display: block;
+    }
+    .era img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 1rem auto;
+      display: block;
+    }
+    .highlight {
+      font-weight: bold;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    .debut { color: lightgreen; }
+    .fearless { color: gold; }
+    .speaknow { color: purple; }
+    .red { color: red; }
+    ._1989 { color: skyblue; }
+    .reputation { color: black; }
+    .lover { color: pink; }
+    .folklore { color: gray; }
+    .evermore { color: brown; }
+    .midnights { color: midnightblue; }
+    .ttpd { color: black; background-color: white; padding: 0.25rem 0.5rem; }
+    .debut .highlight { background-color: lightgreen; color: black; }
+    .fearless .highlight { background-color: gold; color: black; }
+    .speaknow .highlight { background-color: purple; color: white; }
+    .red .highlight { background-color: red; color: white; }
+    ._1989 .highlight { background-color: skyblue; color: white; }
+    .reputation .highlight { background-color: black; color: white; }
+    .lover .highlight { background-color: pink; color: blue; }
+    .folklore .highlight { background-color: gray; color: white; }
+    .evermore .highlight { background-color: brown; color: white; }
+    .midnights .highlight { background-color: midnightblue; color: white; }
+    .ttpd .highlight { background-color: white; border: 1px solid black; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Taylor Swift: Le sue Ere Musicali</h1>
+    <p>Un viaggio attraverso la carriera di una delle artiste più iconiche del nostro tempo.</p>
+  </header>
+  <div class="tab-bar">
+    <button class="debut" onclick="showTab('debut')">Debut</button>
+    <button class="fearless" onclick="showTab('fearless')">Fearless</button>
+    <button class="speaknow" onclick="showTab('speaknow')">Speak Now</button>
+    <button class="red" onclick="showTab('red')">Red</button>
+    <button class="_1989" onclick="showTab('1989')">1989</button>
+    <button class="reputation" onclick="showTab('reputation')">Reputation</button>
+    <button class="lover" onclick="showTab('lover')">Lover</button>
+    <button class="folklore" onclick="showTab('folklore')">Folklore</button>
+    <button class="evermore" onclick="showTab('evermore')">Evermore</button>
+    <button class="midnights" onclick="showTab('midnights')">Midnights</button>
+    <button class="ttpd" onclick="showTab('ttpd')">TTPD</button>
+  </div>
+
+  <div id="debut" class="content active debut era">
+    <h2>Debut (2006)</h2>
+    <img src="debutimage.png" alt="Debut era">
+    <p style="color:darkgreen">Il primo album omonimo di Taylor Swift ha segnato l'inizio della sua carriera come giovane cantante country. Con testi sinceri e melodie accattivanti, ha catturato l'attenzione di un vasto pubblico adolescente.</p>
+    <p class="highlight">Teardrops on My Guitar</p>
+    <p style="color:black">"Teardrops on My Guitar" di Taylor Swift è una delle sue canzoni più iconiche e toccanti, soprattutto per chi ha mai provato un amore non corrisposto. La canzone racconta la storia di Taylor che si innamora del suo migliore amico, Drew, ma lui non si accorge dei suoi sentimenti e si innamora di un’altra ragazza. È una ballata dolceamara che parla di sogni infranti, gelosia silenziosa e il dolore di dover nascondere quello che si prova davvero.
+    <br><br>
+    Taylor descrive perfettamente quella sensazione di dover fingere un sorriso davanti alla persona che ami, solo per non far vedere quanto stai soffrendo dentro. Nel testo, dice: “Drew mi guarda, fingo un sorriso così non vedrà che voglio e che ho bisogno di tutto ciò che potremmo essere”. È una frase che colpisce chiunque abbia mai dovuto nascondere i propri veri sentimenti per paura di rovinare un’amicizia o per timore di essere respinti.
+    <br><br>
+    La canzone è piena di immagini forti: Taylor ascolta Drew parlare della sua nuova ragazza, che secondo lei è perfetta e ha tutto ciò che a lei manca. Si sente invisibile, come se nessuno potesse capire davvero quanto lui sia importante per lei. La frase “he’s the reason for the teardrops on my guitar” (“lui è la ragione delle lacrime sulla mia chitarra”) è il cuore della canzone: ogni volta che suona la chitarra, pensa a lui e non riesce a trattenere le lacrime.
+    <br><br>
+    C’è anche tanta dolcezza e vulnerabilità nel modo in cui Taylor si chiede se lui si accorge di quanto lei sia ferita: “Drew passa accanto a me, può capire che non riesco a respirare?”. E poi c’è quella sensazione di impotenza, quando vedi la persona che ami essere felice con qualcun altro e ti chiedi se mai potrai essere al suo posto.
+    <br><br>
+    In sintesi, "Teardrops on My Guitar" parla di un amore silenzioso e non ricambiato, del rimpianto di non aver mai avuto il coraggio di confessare i propri sentimenti e della forza che ci vuole per andare avanti, anche quando il cuore è spezzato. È una canzone che ti fa sentire meno sola se hai vissuto qualcosa di simile, e che mostra quanto Taylor Swift sia capace di trasformare la sua vulnerabilità in musica che arriva dritta al cuore.</p>
+  </div>
+
+  <div id="fearless" class="content fearless era">
+    <h2>Fearless (2008)</h2>
+    <img src="fearlessimage.png" alt="Fearless era">
+    <p styl="color:orange">Fearless è l'album che ha portato Taylor alla fama mondiale. Con sonorità pop-country, ha vinto il Grammy come Album dell'Anno.</p>
+    <p class="highlight">Love Story</p>
+<p style="color:black">"Love Story" di Taylor Swift è una delle sue canzoni più amate e rappresenta davvero la quintessenza delle storie d’amore da sogno! Nel testo, Taylor racconta la storia di due giovani innamorati che si trovano a dover affrontare ostacoli, proprio come i celebri Romeo e Giulietta. La loro relazione è osteggiata dal padre di lei, che non approva il ragazzo, e questo rende la loro storia ancora più intensa e travolgente.
+    <br><br>
+    Taylor usa tantissimi riferimenti romantici e fiabeschi: lei si immagina come una principessa e lui come il suo principe, pronti a sfidare tutto e tutti pur di stare insieme. C’è un senso fortissimo di desiderio di libertà e di ribellione contro le regole imposte dagli adulti, ma anche tanta speranza e voglia di un lieto fine. La canzone trasmette quel batticuore tipico dei primi amori, quando ogni ostacolo sembra insormontabile ma l’amore ti fa sentire invincibile.
+    <br><br>
+    Uno dei momenti più emozionanti del testo è quando Taylor, nei panni di Giulietta, si sente sola e teme che il suo Romeo non arriverà mai. Ma proprio quando sta per perdere la speranza, lui torna, si inginocchia e le chiede di sposarlo: è il sogno di ogni romanticona! In questa versione della storia, a differenza della tragedia shakespeariana, l’amore vince su tutto e i due protagonisti possono finalmente stare insieme, felici e contenti.
+    <br><br>
+    "Love Story" è quindi una canzone che parla di amore giovane, ostacolato ma fortissimo, che supera ogni difficoltà e si trasforma in una favola a lieto fine. È impossibile non sentirsi coinvolti nella storia e non sognare un amore così intenso e coraggioso!</p>  
+</div>
+
+  <div id="speaknow" class="content speaknow era">
+    <h2>Speak Now (2010)</h2>
+    <img src="speaknowimage.png" alt="Speak Now era">
+    <p>Album interamente scritto da Taylor, evidenzia la sua capacità autoriale e una maturazione nei temi trattati.</p>
+    <p class="highlight">Long Live</p>
+ <p style="color:black">"Long Live" di Taylor Swift è un inno emozionante e nostalgico dedicato a quei momenti irripetibili di vittoria, amicizia e giovinezza che restano per sempre nel cuore. Taylor ha scritto questa canzone pensando soprattutto alla sua band e al team che l’ha accompagnata durante il suo primo tour da protagonista, celebrando insieme il successo e le sfide affrontate.
+    <br><br>
+    Nel testo, Taylor invita a ricordare quei momenti magici, come quando si è in cima al mondo e tutto sembra possibile. C’è un forte senso di orgoglio e gratitudine verso chi ha condiviso con lei quel percorso, ma anche un pizzico di ribellione e la consapevolezza che, anche se il tempo passa, quelle emozioni e quei legami rimarranno per sempre vivi dentro di lei.
+    <br><br>
+    "Long Live" parla di celebrare le vittorie, grandi o piccole che siano, e di custodire gelosamente i ricordi di quegli istanti speciali. È una canzone che trasmette un messaggio di speranza e di forza, perfetta per chiunque voglia sentirsi incoraggiato a vivere appieno ogni esperienza, a non dimenticare mai da dove si è partiti e a credere sempre nei propri sogni.
+    <br><br>
+    Insomma, è una vera e propria dichiarazione d’amore verso la giovinezza, l’amicizia e il coraggio di affrontare il futuro con il cuore pieno di ricordi indimenticabili. Per una fan come me, "Long Live" è un inno che scalda il cuore e fa sentire parte di qualcosa di speciale e unico.</p> 
+</div>
+
+  <div id="red" class="content red era">
+    <h2>Red (2012)</h2>
+    <img src="redimage.png" alt="Red era">
+    <p>Red è il ponte tra il country e il pop. Ricco di emozioni forti, riflette l'intensità delle relazioni vissute.</p>
+    <p class="highlight">All Too Well (10 Minute Version)</p>
+ <p style="color:black">"All Too Well (10 Minute Version)" di Taylor Swift è un capolavoro emotivo che racconta con una sincerità disarmante la fine di una relazione intensa e dolorosa, probabilmente ispirata alla sua storia con l’attore Jake Gyllenhaal. La canzone è un viaggio nei ricordi più vivi e struggenti di un amore che sembrava perfetto ma che si è sgretolato a causa di incomprensioni, differenze di età e mancanza di corrispondenza nei sentimenti.
+    <br><br>
+    Nel testo, Taylor ripercorre dettagli preziosi e momenti intimi, come la sciarpa lasciata a casa della sorella di lui, le passeggiate in autunno, le risate e le danze notturne alla luce del frigorifero. Questi ricordi sembrano dolci ma allo stesso tempo carichi di malinconia, perché sanno di qualcosa che non tornerà più. Il brano esprime la frustrazione di chi ha amato profondamente ma è stato lasciato “a pezzi”, con la crudele onestà di chi si giustifica con il dolore altrui.
+    <br><br>
+    Un passaggio chiave è quando Taylor canta di come lui la chiami solo per ferirla, “così casualmente crudele in nome dell’onestà”, mostrando quanto sia stato difficile accettare la fine. La sciarpa, simbolo ricorrente, rappresenta l’innocenza perduta e il legame che lui non riesce a dimenticare, nonostante tutto. La canzone si chiude con una frecciatina velenosa sulla differenza d’età tra loro, sottolineando come lei invecchierà mentre le sue nuove compagne avranno sempre la sua età, un modo per affermare la sua forza e indipendenza.
+    <br><br>
+    "All Too Well (10 Minute Version)" è molto più di una semplice canzone d’amore: è una narrazione intensa, quasi cinematografica, che mette a nudo le emozioni più profonde di Taylor, tra ricordi dolci e amari, rimpianti e la consapevolezza di aver vissuto qualcosa di raro e speciale. Per una fan appassionata, è un brano che fa vibrare il cuore, perché parla di quelle ferite che sembrano impossibili da guarire, ma che alla fine ti rendono più forte.</p>  
+</div>
+
+  <div id="1989" class="content _1989 era">
+    <h2>1989 (2014)</h2>
+    <img src="1989image.png" alt="1989 era">
+    <p style="color:darkblue">Con 1989, Taylor si reinventa come pop star a tempo pieno, con uno stile synth-pop ispirato agli anni '80.</p>
+    <p class="highlight">Style</p>
+ <p style="color:black">"Style" di Taylor Swift è una canzone che parla di una relazione complicata ma magnetica, un amore che continua a ripetersi nonostante le difficoltà e le incomprensioni. Taylor descrive un legame con qualcuno che ha uno sguardo da "James Dean", simbolo di fascino e ribellione, mentre lei si presenta con un look classico, come il rossetto rosso, che lui adora. Questo contrasto crea un’immagine di due persone molto diverse ma irresistibilmente attratte l’una dall’altra.
+    <br><br>
+    Il testo racconta di incontri notturni, viaggi in macchina con i fari spenti, momenti di passione che possono finire in "fiamme o paradiso", cioè in qualcosa di distruttivo o di perfetto. Taylor sa bene dove va a finire questa storia, ma non riesce a staccarsi da questo ciclo di avvicinamenti e allontanamenti, perché, come dice il ritornello, loro "non passano mai di moda": sono un po’ come un classico senza tempo, un amore che continua a tornare anche quando dovrebbe finire.
+    <br><br>
+    C’è anche la consapevolezza che lui ha frequentato altre ragazze, ma nonostante tutto non riesce a smettere di pensare a lei, e lei stessa ammette di aver vissuto situazioni simili prima, mostrando una maturità nel riconoscere la complessità dei sentimenti coinvolti.
+    <br><br>
+    In sostanza, "Style" è un mix perfetto di romanticismo e realismo, che parla di un amore intenso, passionale e a tratti turbolento, ma che ha qualcosa di eterno e irresistibile. È una canzone che cattura quel senso di attrazione magnetica e di legami che, anche se complicati, non si riescono a lasciare andare. Per una fan come me, è un brano che rappresenta perfettamente quei sentimenti contrastanti che solo un grande amore sa regalare.</p>  
+</div>
+
+  <div id="reputation" class="content reputation era">
+    <h2>Reputation (2017)</h2>
+    <img src="reputationimage.png" alt="Reputation era">
+    <p>Un album di rottura, che risponde alle controversie pubbliche con toni più oscuri e sonorità elettroniche.</p>
+    <p class="highlight">Look What You Made Me Do</p>
+ <p style="color:black">"Look What You Made Me Do" di Taylor Swift è una canzone potentissima in cui Taylor affronta con ironia e durezza tutte le critiche, i tradimenti e le faide che l’hanno coinvolta negli ultimi anni. È come una rinascita: la "vecchia Taylor" è morta, e ora lei è più forte, più intelligente e pronta a prendersi la sua rivincita.
+    <br><br>
+    Nel testo, Taylor parla di giochi sporchi, bugie e tradimenti, mostrando quanto sia stanca di essere vista come la "pazza" o la vittima. Canta di come sia stata costretta a recitare un ruolo imposto dagli altri, ma ora ha una lista di nomi – probabilmente riferimenti a persone con cui ha avuto conflitti, come Katy Perry o Kanye West – e non ha paura di affrontarli.
+    <br><br>
+    Il ritornello, con quel “guardate cosa mi avete fatto fare”, è quasi una sfida: è come se dicesse che tutto ciò che le è successo l’ha trasformata in una persona nuova, più dura e pronta a combattere. Nel video, Taylor distrugge simbolicamente le sue vecchie versioni, mostrando che ha lasciato alle spalle il passato per rinascere più forte che mai.
+    <br><br>
+    C’è anche un tema di sfiducia verso gli altri, con Taylor che ammette di non fidarsi più di nessuno e di essere diventata protagonista dei "brutti sogni" di chi le ha fatto del male. Ma non è solo rabbia: c’è anche una consapevolezza del karma, come se fosse certa che chi l’ha ferita prima o poi pagherà il conto.
+    <br><br>
+    Per una fan appassionata come me, "Look What You Made Me Do" è un inno di forza e trasformazione, un modo per dire che anche dalle difficoltà e dai tradimenti si può uscire più forti, pronti a riscrivere la propria storia senza più farsi mettere i piedi in testa. È la Taylor che si prende il controllo della sua immagine e della sua vita, senza paura di mostrare il suo lato più duro e determinato.</p>  
+</div>
+
+  <div id="lover" class="content lover era">
+    <h2>Lover (2019)</h2>
+    <img src="loverimage.png" alt="Lover era">
+    <p style="color:fuchsia">Colorato e romantico, Lover celebra l'amore, la libertà artistica e l'indipendenza personale.</p>
+    <p class="highlight">The Archer</p>
+ <p style="color:black">"The Archer" di Taylor Swift è una canzone molto intima e vulnerabile in cui Taylor esplora le sue insicurezze, paure e dubbi interiori. Usa l’immagine dell’arciere per rappresentare sia chi ferisce sia chi viene ferito, riflettendo la sua doppia natura di persona forte ma anche fragile. Nel testo emerge la sensazione di sentirsi esposta e trasparente agli occhi degli altri, con la paura di essere abbandonata e il desiderio di trovare qualcuno che resti davvero al suo fianco.
+    <br><br>
+    Taylor parla anche di lotte interiori e di come a volte si sia fatta del male da sola, mostrando una profonda autoanalisi emotiva. La canzone ha un’atmosfera malinconica e sognante, che accompagna perfettamente il tema della vulnerabilità e della ricerca di forza nonostante le difficoltà.
+    <br><br>
+    Per una fan come me, "The Archer" è un brano che colpisce perché mostra il lato più umano e sincero di Taylor, un invito a riconoscere le proprie fragilità e a non aver paura di affrontarle, sapendo che non siamo mai davvero soli.</p>
+</div>
+
+  <div id="folklore" class="content folklore era">
+    <h2>Folklore (2020)</h2>
+    <img src="folkloreimage.png" alt="Folklore era">
+    <p>Un album intimo, scritto durante la pandemia, che esplora storytelling introspettivo e atmosfere indie/folk.</p>
+    <p class="highlight">peace</p>
+ <p style="color:black">"Peace" di Taylor Swift è una canzone profondamente intima in cui la cantante riflette sulle difficoltà di mantenere una relazione stabile e protetta nonostante le proprie fragilità e il caos che la circonda. Taylor si rivolge al suo partner, probabilmente Joe Alwyn, esprimendo la consapevolezza di non poter mai garantirgli una vita completamente serena a causa delle sue insicurezze e delle pressioni esterne legate alla fama. Nonostante questo, promette di essere un sostegno forte, come un fuoco che riscalda un cuore fragile, e di restare al suo fianco anche nei momenti più difficili.
+    <br><br>
+    Nel testo emerge anche la paura che il suo amore non sia abbastanza per compensare le complicazioni e le minacce che li circondano, come "ladri a est e pagliacci a ovest". Taylor parla di un amore maturo, diverso da quelli giovanili e sbandierati al pubblico, un amore che si vive in segreto, lontano dagli sguardi indiscreti, fatto di complicità, silenzi condivisi e legami profondi con le persone scelte come famiglia. La domanda che si ripete nel brano, "Sarebbe abbastanza se non potessi mai darti pace?", mette a nudo la sua vulnerabilità e il desiderio di essere accettata nonostante tutto.
+    <br><br>
+    Per una fan appassionata come me, "Peace" è una delle canzoni più sincere e toccanti di Taylor, perché parla di un amore reale, con i suoi limiti e le sue paure, ma anche della forza di voler proteggere e restare fedeli a chi si ama. È un brano che mostra la maturità emotiva di Taylor, la sua capacità di mettere a nudo le emozioni più complesse e di raccontare un amore che non è solo passione, ma anche impegno, sacrificio e accettazione profonda.</p>  
+</div>
+
+  <div id="evermore" class="content evermore era">
+    <h2>Evermore (2020)</h2>
+    <img src="evermoreimage.png" alt="Evermore era">
+    <p>Considerato il fratello minore di Folklore, continua a sviluppare il lato narrativo e riflessivo dell'artista.</p>
+    <p class="highlight">happiness</p>
+ <p style="color:black">"Happiness" di Taylor Swift è una canzone che affronta la fine di una relazione lunga e complessa, riflettendo sulle emozioni contrastanti che si provano nel superare un amore importante. Taylor parla con sincerità di come, nonostante il dolore e la rottura, ci sia stata felicità grazie a quella storia, e allo stesso tempo ci sarà felicità anche dopo la sua fine. Questo dualismo tra passato e futuro felice rende il brano profondamente realistico e toccante, mostrando che si può trovare pace anche dopo una grande perdita.
+    <br><br>
+    Nel testo emergono immagini potenti di lotta emotiva, come la difficoltà di reinventarsi dopo la fine di un rapporto e il peso dei ricordi che ancora bruciano, simboleggiati da “pioggia acida” e “lacrime sul cuscino”. Taylor esprime anche la consapevolezza che, nonostante l’amore e l’impegno, a volte le relazioni si trasformano in ferite reciproche, e nessuno insegna come affrontare il dolore quando anche chi ami ti fa soffrire. C’è una forte componente di autoanalisi, con la cantante che riconosce i propri errori e la difficoltà di perdonare e lasciar andare.
+    <br><br>
+    Per una fan appassionata come me, "Happiness" è una delle canzoni più sincere e mature di Taylor, perché parla di un amore reale, con tutte le sue sfumature di gioia e sofferenza. È un inno alla capacità di trovare luce anche nei momenti più bui, di accettare che la felicità può esistere sia nel passato che nel futuro, e di lasciare andare il dolore per poter rinascere. La sua delicatezza e profondità emotiva la rendono un brano che tocca il cuore e fa riflettere sul valore delle esperienze vissute, anche quando finiscono.</p> 
+</div>
+
+  <div id="midnights" class="content midnights era">
+    <h2>Midnights (2022)</h2>
+    <img src="midnightsimage.png" alt="Midnights era">
+    <p>Un concept album che racconta le notti insonni di Taylor. Un mix di synth-pop, dream pop e confessioni intime.</p>
+    <p class="highlight">You're on Your Own, Kid</p>
+ <p style="color:black">"You're On Your Own, Kid" di Taylor Swift è una canzone che racconta il percorso di crescita personale e la consapevolezza della solitudine che spesso accompagna il diventare adulti. Nel testo, Taylor ripercorre momenti della sua giovinezza, tra speranze, sogni e delusioni amorose, come quando aspetta che qualcuno la noti o sogna di fuggire da una città che non ha scelto. C’è un senso di nostalgia ma anche di realismo, perché alla fine si rende conto che, nonostante tutto, è sempre stata da sola a dover affrontare le sfide della vita.
+    <br><br>
+    La canzone esprime anche la lotta per trovare il proprio posto nel mondo e il coraggio di inseguire i propri sogni, anche quando sembra che nessuno ti stia davvero guardando o sostenendo. Taylor parla di sacrifici, come dare "sangue, sudore e lacrime" per la sua carriera, e di momenti difficili in cui si sente invisibile o non amata. Il ritornello, con la frase "You're on your own, kid / You always have been", diventa un mantra che sottolinea la solitudine ma anche la forza interiore necessaria per andare avanti.
+    <br><br>
+    Per una fan appassionata come me, "You're On Your Own, Kid" è un brano che parla di resilienza, crescita e indipendenza. È una canzone che ci ricorda che, anche se a volte ci sentiamo soli e incompresi, possiamo trovare dentro di noi la forza per superare le difficoltà e realizzare i nostri sogni. Taylor riesce a trasformare un sentimento universale in una narrazione personale e toccante, rendendo questo pezzo uno dei momenti più sinceri e potenti del suo album "Midnights".</p> 
+</div>
+
+  <div id="ttpd" class="content ttpd era">
+    <h2>The Tortured Poets Department (2024)</h2>
+    <img src="ttpdimage.png" alt="The Tortured Poets Department era">
+    <p>L'ultimo album, pubblicato nel 2024, esplora il dolore, la poesia e le complessità emotive con sonorità alternative e testi profondi.</p>
+    <p class="highlight">The Prophecy</p>
+ <p style="color:black">"The Prophecy" di Taylor Swift è una canzone che esplora con grande vulnerabilità il senso di solitudine e il rimpianto legati a una relazione che non è mai diventata ciò che avrebbe potuto essere. Taylor si sente come se fosse maledetta, come Eva dopo il peccato originale, e vive un conflitto interiore tra la speranza di un cambiamento e la consapevolezza di un destino già scritto. Nel testo emerge la sua supplica quasi disperata a un potere superiore per "cambiare la profezia", cioè per riscrivere il futuro e trovare finalmente la pace e la compagnia che desidera davvero.
+    <br><br>
+    La canzone è ricca di immagini simboliche e metafore che raccontano la lotta emotiva di Taylor: si sente come un giullare in una favola, intrappolata in sabbie mobili lente e dolorose, e come una figura fragile che tenta di mantenere la calma mentre dentro di sé urla come un lupo alla luna. Nonostante la sua forza, ammette la paura di aver sigillato il proprio destino senza possibilità di redenzione e il terrore di non trovare mai un'anima gemella. Questo rende "The Prophecy" una riflessione intensa sulla vulnerabilità, il desiderio di cambiamento e la difficoltà di accettare il proprio percorso.
+    <br><br>
+    Per una fan appassionata come me, "The Prophecy" è una delle canzoni più sincere e toccanti di Taylor, perché mette a nudo le sue paure più profonde e il bisogno di essere amata e compresa senza condizioni. È un brano che parla di speranza e fragilità, di lotta e resa, e che ci ricorda quanto sia umano desiderare un futuro diverso da quello che sembra scritto per noi. Ascoltarla è come entrare in un dialogo intimo con Taylor, sentire il suo cuore aperto e la sua forza nascosta dietro ogni parola.</p>
+</div>
+
+  <script>
+    function showTab(id) {
+      const tabs = document.querySelectorAll('.content');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
